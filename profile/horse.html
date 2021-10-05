@@ -6,9 +6,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HORSE</title>
+    <title>ADOPT A PET(CAT)</title>
 </head>
-<body>
-    <img src="images/logo.png" alt="Logo">
+<body background="images/green-field-35.jpeg">
+    <h2 style="text-align: center;color: rgb(24, 13, 13);"><strong><em>Please fill the form below to adopt a cat from Stan's Pet Home</strong></em></h2>
+    <form autocomplete="on">
+        <fieldset>
+            <legend><strong>Personal Profile</strong> </legend>
+        <label for="firstname"><strong>Firstname</strong></label> <br>
+        <input type="text" name="Firstname" id="firstname" placeholder="Write your Firstname" value="" autofocus required><br>
+        <label for="Lastname"><strong>Lastname</strong></label> <br>
+        <input type="text" name="Lastname" id="Lastname" placeholder="Write your Lastname" value="" required><br>
+        <label for="Email"><strong>Email</strong></label> <br>
+        <input type="text" name="Email" id="Email" placeholder="Write your Email" value=""> <br>
+        <label for="Phonenumber"><strong>Phonenumber</strong></label> <br>
+        <input type="number" name="Phonenumber" id="Phonenumber" placeholder="Phone number" value="">
+        <label for="age"><h3>Age</h3></label>
+        <input type="number" name="age" id="age" placeholder="write your age" >
+            <option value=""></option>
+        </fieldset>
+    <fieldset>
+            <legend>Sex</legend> 
+        <input type="radio" name="Gender">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="Gender">
+        <label for="Female">Female</label><br>
+    
+    </fieldset>
+    <fieldset>
+        <label>Select the pet you want to adopt</label><br>
+        <input type="radio" name="Dogs">
+        <label for="Dogs">DOGS</label><br>
+        <input type="radio" name="Cats">
+        <label for="Cats">CATS</label><br>
+        <input type="radio" name="Horse">
+        <label for="Horses">HORSES</label><br><br>
+        <legend>Biography</legend>
+
+        <label>Why do you want to adopt a pet</label><br>
+        <textarea name="Describe" placeholder="Tell us in not more than 300 words why you want to adopt a pet" rows="10" cols="40" style="width: 200px;border-radius: 0px; color: rgb(8, 7, 7); border-style:ridge; border-color: rgb(8, 6, 6); border-width: 3px;" ></textarea><br><br> 
+        <input type="submit" value="Submit">
+    </fieldset>
+
 </body>
 </html>
